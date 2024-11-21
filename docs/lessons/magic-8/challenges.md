@@ -7,7 +7,7 @@ Coding challenges for the magic 8 tutorial
 Complete the following [guided tutorial](/lessons/magic-8/activity), and your code should look like this:
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("ASK A QUESTION IMMEDIATELY")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
@@ -31,7 +31,7 @@ input.onGesture(Gesture.Shake, () =>  {
 Now let's increase the number of responses the magic 8 ball can give. How about 5 responses instead? Let's change the limit of `pick random` to  4.
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("ASK A QUESTION IMMEDIATELY")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () =>  {
     basic.clearScreen()
@@ -55,7 +55,7 @@ Now have the magic 8 ball respond "Try again" if **randomNumber** is 3.
 
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("ASK A QUESTION IMMEDIATELY")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
@@ -78,7 +78,7 @@ input.onGesture(Gesture.Shake, () => {
 Now what about if **randomNumber** is 4? Let's have the magic 8 ball respond "Definitely!".
 
 ```blocks
-basic.showString("ASK A QUESTION")
+basic.showString("ASK A QUESTION IMMEDIATELY")
 basic.showNumber(8)
 input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
